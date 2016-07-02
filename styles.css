@@ -109,6 +109,12 @@ label {
 .box-content {
     background-color: #cc3fcc;
 }
+hr {
+    border: 0;
+    height: 1px;
+    width: 75%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 .box {
     margin: 0 auto;
     border-radius: 5px;
@@ -151,6 +157,9 @@ table, tr, td:last-child {
 #schedule-content {
     display: inline-block;
 }
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
 .text {
     vertical-align: middle;
     line-height: normal;
@@ -159,6 +168,15 @@ table, tr, td:last-child {
     font-size: 28px;
     color: #3C3638;
     font-family: 'Poiret One', cursive;
+}
+.abstract {
+    display: inline-block;
+    text-align: justify;
+    width: 70%;
+    vertical-align: middle;
+}
+.pan-speaker {
+    
 }
 a:visited {
     color: black;
@@ -193,3 +211,4 @@ a:hover {
         margin-top: 0px;
     }
 }
+B
