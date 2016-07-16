@@ -23,6 +23,35 @@ h2 {
     font-family: 'Poiret One', cursive;
     margin-bottom: 50px;
 }
+.card {
+    width: 350px;
+    height: 250px;
+    padding-: 10px;
+    margin: 10px;
+}
+img {
+    position: relative;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 150px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partners {
+    width: 90%;
+    display: inline-block;
+}
+.partners li {
+    padding: 0; /* remove default padding and all margins! */
+    margin: 0;
+    list-style-type: none; /* remove the • */
+}
+
+.partners ul li {
+    float: left;
+}
+
 h3 {
     vertical-align: middle;
     display: block;
@@ -176,7 +205,7 @@ table, tr, td:last-child {
     vertical-align: middle;
 }
 .pan-speaker {
-    
+
 }
 a:visited {
     color: black;
