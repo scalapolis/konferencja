@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100%;
 }
+
 h1 {
     vertical-align: middle;
     line-height: normal;
@@ -11,7 +12,9 @@ h1 {
     font-style: oblique;
     color: #3C3638;
     font-family: 'Poiret One', cursive;
+    margin-bottom: 10px;
 }
+
 h2 {
     display: block;
     vertical-align: middle;
@@ -21,8 +24,9 @@ h2 {
     font-style: oblique;
     color: #3C3638;
     font-family: 'Poiret One', cursive;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
 }
+
 .card {
     width: 350px;
     height: 250px;
